@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>JS</title>
+
+</head>
+
+<body>
+
+    <h2>JS Objects data structure</h2>
+    <h2>JS Math.Round</h2>
+    <p id="demo"></p>
+
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+
+    <script>
+
+  var address = {
+    Socitey :'Parinee Adney 2',
+    Street1 : 'Holy Cross road',
+    SubCity : 'Borivali',
+    City : 'Mumbai',
+    State : 'Maharashtra',
+    Country : 'India',
+    PinCode :'400103'
+  }
+
+  document.write(address.Socitey,"<br>",address.Street1);
+document.write("<br>")
+  document.write(Math.round(5.66))
+
+  var cars = [
+    "McLaren",
+    "BMW",
+    "Porsche",
+    "Ferrari"
+
+  ]
+  document.getElementById("demo").innerHTML = cars[3];
+
+  var fruits = ["Banana","Apple","Mango","Strawberry"]
+  document.getElementById("myjoin").innerHTML = fruits.join("Slip");
+  document.getElementById("myfirstpop").innerHTML = fruits;
+  fruits.pop();
+  document.getElementById("mysecondpop").innerHTML = fruits;
+ 
+  
+    
+  
+
+    </script>
+
+</body>
+
+
+</html>
